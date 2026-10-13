@@ -1,4 +1,4 @@
-# homebrew-akaisds
-Homebrew tap for AKAISDS and akaiutil-GUI.
+# Homebrew-tap
+Homebrew tap for AKAISDS, akaiutil-GUI and JV Studio.
 
 Automatically updated on each new release.
