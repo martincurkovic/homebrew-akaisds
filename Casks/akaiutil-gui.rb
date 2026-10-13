@@ -29,6 +29,10 @@ cask "akaiutil-gui" do
       3. Scroll down and click "Open Anyway" next to the akaiutil-GUI message
       4. Confirm with your password or Touch ID
 
+    Or skip the prompt by clearing macOS's quarantine flag from Terminal:
+
+      xattr -dr com.apple.quarantine /Applications/akaiutil-GUI.app
+
     It needs macOS 14.4 or newer.
 
     See https://github.com/martincurkovic/akaiutil-gui#download--installation for details.

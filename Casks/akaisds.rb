@@ -29,6 +29,10 @@ cask "akaisds" do
       3. Scroll down and click "Open Anyway" next to the AKAISDS message
       4. Confirm with your password or Touch ID
 
+    Or skip the prompt by clearing macOS's quarantine flag from Terminal:
+
+      xattr -dr com.apple.quarantine /Applications/AKAISDS.app
+
     See https://github.com/martincurkovic/AKAISDS#disclaimer for details.
   EOS
 end
